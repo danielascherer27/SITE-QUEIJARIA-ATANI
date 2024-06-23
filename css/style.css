@@ -115,13 +115,6 @@ img{
     display: block;  
     margin: 0 auto;  
 }
-#imagem-padrao{
-    width: 100%;  
-    max-width: 200px;  
-    height: auto;  
-    display: block; 
-    margin: 0 auto;  
-}
 video{
     width: 100%;
     height: 600px;
