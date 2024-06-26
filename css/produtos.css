@@ -492,19 +492,19 @@ h1 {
     line-height: 1;
 }
 @media (max-width: 1200px) {
-    #queijos-h1, #sobre-h1, #mobier-h1, #donna-maturado-h1, #donna-fresco-h1{ 
+    #queijos-h1, #sobre-h1, #mobier-h1, #saint-h1 #donna-maturado-h1, #donna-fresco-h1{ 
         font-size: 2.5rem;
     }
 }
 
 @media (max-width: 768px) {
-    #queijos-h1, #sobre-h1, #mobier-h1, #donna-maturado-h1, #donna-fresco-h1{
+    #queijos-h1, #sobre-h1, #mobier-h1, #saint-h1 #donna-maturado-h1, #donna-fresco-h1{
         font-size: 2rem;
     }
 }
 
 @media (max-width: 480px) {
-    #queijos-h1, #sobre-h1, #mobier-h1, #donna-maturado-h1, #donna-fresco-h1{
+    #queijos-h1, #sobre-h1, #mobier-h1, #saint-h1 #donna-maturado-h1, #donna-fresco-h1{
         font-size: 1.5rem;
     }
 }
