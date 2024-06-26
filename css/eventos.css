@@ -169,8 +169,8 @@ main {
 .imagemReal {
     margin-top: 10%;
     max-width: 100%; 
-    border-radius: 40px;
-    height: auto;
+    border-radius: 5%;
+    height: 80%;
     object-fit: cover;
 }
 #btn {
