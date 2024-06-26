@@ -115,83 +115,87 @@ img{
     display: block;  
     margin: 0 auto;  
 }
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #292929;
-    padding: 2em;
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
     color: #fff;
 }
-
-section {
-    box-shadow: 0 0 10px rgba(234, 255, 0, 0.315);
-    background-color: #163352;
-
-    padding: 2em;
-    margin-bottom: 20px;
-    border-radius: 20px;
+.sobre{
+    margin-top: 50px;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
 }
-
+.sobre .small-container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.sobre .fileira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sobre .col-1{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: left;
+}
+#cirlei-img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 40px;
+}
+.sobre h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-left: -52%;
+}
+#filhos-h1{
+    margin-left: -10%;
+}
+.sobre p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.sobre small{
+    font-size: 0.9em;
+    color: #ffffff;
+    line-height: 1.5;
+}
 li {
     font-size: large;
     list-style: none;
 }
-
 #A {
     color: green;
 }
-
 #TA {
     color: yellow;
 }
-
 #NI {
     color: blue;
 }
-
 h1, h3{
     text-align: center;
-
 }
-
 h2 {
     display: inline;
 }
-
 .A {
     color: green;
 }
-
 .TA {
     color: yellow;
 }
-
 .NI {
     color: blue;
 }
-
 p {
     padding: 10px;
     margin-bottom: 20px;
-}
-
-img {
-    width: 100%;
-    height: 200px;
-    border-radius: 30px;
-}
-
-#inicio {
-    background-image: linear-gradient(to bottom, #f0f0f0, #fff);
-}
-
-#historia {
-    background-color: #f7f7f7;
-}
-
-#produtos {
-    background-color: #fff;
 }
 footer{
     color: #fff;
