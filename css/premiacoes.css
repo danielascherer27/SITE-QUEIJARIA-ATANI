@@ -115,7 +115,35 @@ img{
     display: block;  
     margin: 0 auto;  
 }
-
+main {
+    padding: 20px;
+    background-color: #292929;
+    color:#fff;
+    text-align: center;
+    flex-direction: column;
+}
+hr{
+    width: 100%;
+}
+.queijos {
+    color: white;
+    box-shadow: 0 0 5px #E9AC34; 
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 30px;
+}
+.alinhar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.queijos img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 20px;
+}
 footer{
     color: #fff;
     background-color: #163352;
@@ -190,53 +218,4 @@ footer{
     font-size: 12px;
     margin: 0;
     text-align: center;
-}
-main {
-    background-color: #292929;
-    padding: 20px;
-    color:#fff;
-    text-align: center;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-hr{
-    width: 100%;
-}
-.Premiações {
-    padding: 20px 0;
-}
-.Premiações h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.premios-row {
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.queijos {
-    color: white;
-    background-color: #163352;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(234, 255, 0, 0.315);
-
-    width: calc(100% - 30px);
-    margin-top: 50px;
-    font-size: larger;
-}
-.alinhar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-
-.queijos img {
-    max-width: 30%;
-    height: auto;
 }

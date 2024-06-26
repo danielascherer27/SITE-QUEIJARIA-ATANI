@@ -288,7 +288,7 @@ video{
     left: 53%; 
     transform: translate(-50%, -50%); 
 } 
-.col-3 #img-nonna{
+#img-nonna{
     width: 95%; 
     max-width: none; 
     position: absolute; 
@@ -296,7 +296,7 @@ video{
     left: 43%; 
     transform: translate(-50%, -50%); 
 }
-.col-3 #img-saint{
+#img-saint{
     width: 105%; 
     max-width: none; 
     position: absolute; 

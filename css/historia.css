@@ -151,10 +151,10 @@ h1 {
 .sobre h1{
     font-size: 2.5em;
     margin-bottom: 10px;
-    margin-left: -52%;
+    text-align: center;
 }
 #filhos-h1{
-    margin-left: -10%;
+    text-align: center;
 }
 .sobre p{
     font-size: 1.2em;
@@ -164,23 +164,6 @@ h1 {
     font-size: 0.9em;
     color: #ffffff;
     line-height: 1.5;
-}
-@media (max-width: 1200px) {
-    .col-1 h1{ 
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    #queijos-h1{
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    #queijos-h1{
-        font-size: 1.5rem;
-    }
 }
 li {
     font-size: large;

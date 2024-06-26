@@ -126,22 +126,27 @@ main {
     justify-content: center;
     align-items: center;
 }
+
 hr {
     width: 100%;
 }
+
 .parceiros {
     padding: 20px 0;
 }
+
 .parceiros h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .parceiro-row {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
 }
+
 .parceiro {
     background-color: #163352;
     padding: 15px;
@@ -152,22 +157,26 @@ hr {
     margin-top: 50px;
     font-size: larger;
 }
+
 .parceiro img {
     max-width: 50%;
     height: auto;
     margin-bottom: 5px;
     border-radius: 50%;
 }
+
 @media (max-width: 1024px) {
     .parceiro {
         width: calc(33% - 30px);
     }
 }
+
 @media (max-width: 768px) {
     .parceiro {
         width: calc(50% - 30px);
     }
 }
+
 @media (max-width: 480px) {
     .parceiro {
         width: 100%;
