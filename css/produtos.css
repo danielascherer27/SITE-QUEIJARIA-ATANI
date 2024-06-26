@@ -337,13 +337,14 @@ h1 {
         transform: none;
     }
     .col-3 #img-nonna,
-    .col-3 #img-saint{
+    .col-3 #img-saint, 
+    .col-3 #img-donna-maturado{
         width: 100%;
         max-width: 100%;
         position: static;
         transform: none;
     }
-    .btn-saiba-mais{
+    .btn-saiba-mais, #btn-donna-maturado, #btn-donna-fresco{
         margin-top: 5px;
     }
 }
@@ -369,11 +370,14 @@ h1 {
     text-align: left;
 }
 .queijos #tabua-img{
-    width: 100%;
     height: auto;
     max-width: 600px;
     border-radius: 20px;
     margin-bottom: 20px;
+    max-width: 80%;
+    background-color: #102235;
+    box-shadow: 0 0 5px #E9AC34; 
+    transition: transform 0.5s; 
 }
 .queijos h1{
     font-size: 2.5rem;
@@ -442,7 +446,6 @@ h1 {
     box-shadow: 0 0 5px #E9AC34; 
     transition: transform 0.5s; 
     height: auto;
-    margin-top: -20%;
     border-radius: 20%;
 }
 #mobier-h1{
@@ -487,6 +490,23 @@ h1 {
     color: #E9AC34;
     font-size: 1.5rem;
     line-height: 1;
+}
+@media (max-width: 1200px) {
+    #queijos-h1, #sobre-h1, #mobier-h1, #donna-maturado-h1, #donna-fresco-h1{ 
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #queijos-h1, #sobre-h1, #mobier-h1, #donna-maturado-h1, #donna-fresco-h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #queijos-h1, #sobre-h1, #mobier-h1, #donna-maturado-h1, #donna-fresco-h1{
+        font-size: 1.5rem;
+    }
 }
 footer{
     color: #fff;
