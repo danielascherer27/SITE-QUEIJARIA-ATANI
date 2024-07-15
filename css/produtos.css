@@ -301,7 +301,6 @@ h1{
 #btn-donna-maturado:hover{
     background-color: #00963C;
 }
-
 .col-3:hover{ 
     transform: translateY(-5px); 
 }
@@ -409,7 +408,6 @@ h1{
     font-size: 1.5rem;
     line-height: 1;
 }
-
 .sobre{
     margin-top: 50px;
     padding: 40px 0;
